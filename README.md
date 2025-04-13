@@ -4,7 +4,7 @@ I am a results-driven Data Scientist & Analyst with a background in Finance and 
 With expertise in Python, SQL, Machine Learning, and Data Visualisation, I specialise in extracting insights from complex datasets, developing predictive models, and transforming raw data into impactful business Insights.
 
 ---
-###  Education:
+##  Education:
 - University of Essex
 - Master of Science (MSc) in Applied Data Science
 - Dissertation: A Quantitative Comparative Analyisis Of ARIMA and LSTM Models for Short and Long Term Forcasting on the FTSE 100
@@ -14,7 +14,7 @@ With expertise in Python, SQL, Machine Learning, and Data Visualisation, I speci
 - Bachelor of Science (BSc), In Finance and Management
 - Sept 2020 – Aug 2023
 
-#####  Projects
+##  Projects
 
 🧠 **Customer Churn Prediction**  - [GitHub Link]()
 - Applied data cleaning, feature engineering, and model comparison (Logistic Regression, XGBoost, SVM, Random Forest)  
@@ -41,7 +41,7 @@ With expertise in Python, SQL, Machine Learning, and Data Visualisation, I speci
 - Built interactive Power BI dashboard to monitor customer sentiment over time  
 
 
-### PROFESSIONAL EXPERIENCE
+## PROFESSIONAL EXPERIENCE
 
 Internal Account Manager  | Aalco                          	                 Nov. 2024 - Present
 
@@ -58,7 +58,6 @@ Online Assistant | Sainsbury                                                 Sep
 
  Marketing & Analytics Intern  | Giant Health                    Apr 2021 – Sep 2021
 
- 
 - Utilised HubSpot CRM to manage and enhance startup–investor contact data, improving segmentation and outreach effectiveness.
 - Analysed social media performance metrics to inform content strategy, leading to a 25% increase in engagement.
 - Collected and organised lead generation data to support targeted investor–startup matchmaking, streamlining communication workflows.
