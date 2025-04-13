@@ -43,7 +43,7 @@ With expertise in Python, SQL, Machine Learning, and Data Visualisation, I speci
 
 ### PROFESSIONAL EXPERIENCE
 
-Internal Account Manager | Aalco                          	                 Nov. 2024 - Present
+Internal Account Manager  | Aalco                          	                 Nov. 2024 - Present
 
 - Data-Driven Decision Making: Analysed sales and purchasing data to identify high-value opportunities, increasing client retention by 15%.
 - Client Relationship Management: Managed over 20 key portfolio accounts through strategic reviews and face-to-face meetings, contributing to notable revenue growth.
@@ -56,7 +56,7 @@ Online Assistant | Sainsbury                                                 Sep
 - Customer Satisfaction & Retention: solved customer issues efficiently, maintaining an 85%+ satisfaction rate
 - Team Development: Trained and onboarded new team members, enhancing team productivity and service levels.
 
- Marketing & Analytics Intern | Giant Health                                     Apr 2021 – Sep 2021
+ Marketing & Analytics Intern  | Giant Health                    Apr 2021 – Sep 2021
 
  
 - Utilised HubSpot CRM to manage and enhance startup–investor contact data, improving segmentation and outreach effectiveness.
