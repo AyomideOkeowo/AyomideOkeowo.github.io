@@ -14,11 +14,7 @@ With expertise in Python, SQL, Machine Learning, and Data Visualisation, I speci
 - Bachelor of Science (BSc), In Finance and Management
 - Sept 2020 – Aug 2023
 
-##  Projects
-
-🧠 **Customer Churn Prediction**  - [GitHub Link]()
-- Applied data cleaning, feature engineering, and model comparison (Logistic Regression, XGBoost, SVM, Random Forest)  
-- Business goal: Reduce churn by identifying high-risk clients  
+##  Projects  
 
 
 📚 **LLM Book Recommender (Coming Soon)**   [GitHub Link]()
@@ -31,7 +27,7 @@ With expertise in Python, SQL, Machine Learning, and Data Visualisation, I speci
 - Recommendations backed by effect size, p-value, and lift analysis  
 
 
-🌫 **Air Quality Index Predictor**  - [GitHub Link]()
+🌫 **Air Quality Index Predictor**  - [https://flight-predictor-o5js.onrender.com/]()
 - Regression modelling with real-time data  
 - Built interactive visualisations to show trends and predictions  
 
