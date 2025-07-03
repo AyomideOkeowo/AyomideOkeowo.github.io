@@ -6,15 +6,17 @@ With expertise in Python, SQL, Machine Learning, and Data Visualisation, I speci
 ---
 ##  Education:
 - University of Essex
-- Master of Science (MSc) in Applied Data Science  | Oct 2023 – Oct 2024
+Master of Science (MSc) in Applied Data Science  | Oct 2023 – Oct 2024
   
 - Dissertation: A Quantitative Comparative Analyisis Of ARIMA and LSTM Models for Short and Long Term Forcasting on the FTSE 100
-     ● Developed and compared ARIMA and LSTM models on Time Series data, optimised model hyperparameters using
+
+   - Developed and compared ARIMA and LSTM models on Time Series data, optimised model hyperparameters using
        GridSearchCV for prediction accuracy.
-     ● Evaluated model performances using RMSE, MAE,MAPE
+
+   -  Evaluated model performances using RMSE, MAE,MAPE
 
 - University of Essex 
-- Bachelor of Science (BSc), In Finance and Management | Sept 2020 – Aug 2023
+Bachelor of Science (BSc), In Finance and Management | Sept 2020 – Aug 2023
 
 ##  Projects  
 
