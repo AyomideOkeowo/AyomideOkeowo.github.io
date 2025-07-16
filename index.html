@@ -1,0 +1,318 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Ayomide Okeowo - ML & Data Science</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+
+	<!-- Added CSS to style intro and particles -->
+	<style>
+		/* --- START CHANGES --- */
+		#intro {
+			position: relative;
+			/* make intro relative so particles can be absolute inside */
+			width: 100%;
+			height: 400px;
+			/* fixed height for the intro section - adjust as needed */
+			overflow: hidden;
+			/* hide overflowing particles */
+			color: white;
+			/* text color */
+			padding: 2rem;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			/* vertical center */
+			align-items: center;
+			/* horizontal center */
+		}
+
+		#particles-js {
+			position: absolute;
+			/* absolutely position particles inside intro */
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			z-index: 0;
+			/* behind text */
+			pointer-events: none;
+			/* allow clicks through particles */
+		}
+
+		/* Ensure all intro content is above particles */
+		#intro>*:not(#particles-js) {
+			position: relative;
+			z-index: 1;
+		}
+
+		/* --- END CHANGES --- */
+	</style>
+
+</head>
+
+<body class="is-preload">
+
+
+	<!-- Wrapper -->
+	<div id="wrapper" class="fade-in">
+
+		<!-- Intro -->
+		<div id="intro">
+			<!-- Moved particles div INSIDE intro -->
+			<div id="particles-js"></div>
+
+			<h1>Ayomide Okeowo <br />
+				<span style="font-size: 0.6em;">Data Scientist</span>
+			</h1>
+			<p>Data Scientist Skilled in Python, SQL and hands on experince in Machine Learning, Deep learning and Data
+				visulisation using tools like Power BI <a
+					href="https://linkedin.com/in/ayomideokeowo">@AyomideOkeowo</a>
+			</p>
+			<ul class="actions">
+				<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+			</ul>
+		</div>
+		---
+		<!-- Header -->
+		<header id="header">
+			<a href="index.html" class="logo">Ayomide Okeowo</a>
+		</header>
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul class="links">
+				<li><a href="generic.html">About Me</a></li>
+				<li class="active"><a href="index.html">Projets</a></li>
+
+			</ul>
+			<ul class="icons">
+				<li><a href="https://linkedin.com/in/ayomideokeowo" class="icon brands fa-linkedin"><span
+							class="label">linkedin</span></a></li>
+				<li><a href="https://github.com/AyomideOkeowo" class="icon brands alt fa-github"><span
+							class="label">GitHub</span></a></li>
+			</ul>
+		</nav>
+
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script>
+		// particles only inside intro section
+		particlesJS('particles-js', {
+			"particles": {
+				"number": { "value": 60 },
+				"color": { "value": "#ffffff" },
+				"shape": { "type": "circle" },
+				"opacity": { "value": 0.5 },
+				"size": { "value": 3 },
+				"line_linked": {
+					"enable": true,
+					"distance": 150,
+					"color": "#ffffff",
+					"opacity": 0.4,
+					"width": 1
+				},
+				"move": {
+					"enable": true,
+					"speed": 2
+				}
+			},
+			"interactivity": {
+				"events": {
+					"onhover": {
+						"enable": true,
+						"mode": "grab"
+					}
+				}
+			}
+		});
+	</script>
+</body>
+
+</html>
+
+
+
+<!-- Main -->
+<div id="main">
+
+	<!-- Featured Post -->
+	<article class="post featured">
+		<header class="major">
+
+			<h2><a href="https://github.com/AyomideOkeowo/Flight-Predictor">Flight Price Prediction API<br />
+				</a></h2>
+			<p>Created a RESTful API using Flask to provide real-time flight price predictions from regression models
+				trained on feature engineered data. Deployed on a cloud platform with CI/CD and model monitoring to
+				ensure low-latency, scalable inference and automated retraining.</p>
+		</header>
+		<a href="https://github.com/AyomideOkeowo/Flight-Predictor" class="image main"><img src="images/flight price prediction.jpg" alt="" /></a>
+		<ul class="actions special">
+			<li><a href="https://github.com/AyomideOkeowo/Flight-Predictor" class="button large">View Project</a></li>
+		</ul>
+	</article>
+
+	<!-- Posts -->
+	<section class="posts">
+		<article>
+			<header>
+
+				<h2><a href="https://github.com/AyomideOkeowo/A-BERT-Sentiment-Analysis-Model">A BERT Sentiment Analyis Model <br />
+					</a></h2>
+			</header>
+			<a href="https://github.com/AyomideOkeowo/A-BERT-Sentiment-Analysis-Model" class="image fit"><img src="images/Bert sentiment.jpg" alt="" /></a>
+			<p>Developed a scalable NLP pipeline to analyse millions of customer feedback records, fine tuning a BERT
+				model to significantly improve sentiment classification accuracy. Integrated the model into a real time
+				Power BI dashboard through an end to end MLOps workflow, delivering actionable insights to stakeholders.
+			</p>
+			<ul class="actions special">
+				<li><a href="https://github.com/AyomideOkeowo/A-BERT-Sentiment-Analysis-Model" class="button">View Project</a></li>
+			</ul>
+		</article>
+		<article>
+			<header>
+
+				<h2><a href="https://github.com/AyomideOkeowo/A-collaborative-Movie-Recommender-System/tree/main">A Hybrid Movie Recommender System<br />
+					</a></h2>
+			</header>
+			<a href="https://github.com/AyomideOkeowo/A-collaborative-Movie-Recommender-System/tree/main" class="image fit"><img src="images/Movie recommender.jpg" alt="" /></a>
+			<p>Built a hybrid recommendation engine combining collaborative filtering and content based methods to
+				address the cold start problems. Optimised performance via SVD based dimensionality reduction and
+				validated improvements with A/B testing, enhancing user engagement and recommendation quality.</p>
+			<ul class="actions special">
+				<li><a href="https://github.com/AyomideOkeowo/A-collaborative-Movie-Recommender-System/tree/main" class="button">View Project</a></li>
+			</ul>
+		</article>
+		<article>
+			<header>
+
+				<h2><a href="https://github.com/AyomideOkeowo/A-Comprehensive-RFM-Customer-Churn-Analysis">A Comprehensive RFM Customer Churn Analysis<br />
+					</a></h2>
+			</header>
+			<a href="https://github.com/AyomideOkeowo/A-Comprehensive-RFM-Customer-Churn-Analysis" class="image fit"><img src="images/RFM-Metrics.webp" alt="" /></a>
+			<p>Conducted RFM analysis and clustering on customer purchase data to identify distinct segments and churn
+				risks. Provided actionable profiles that informed targeted marketing strategies and improved customer
+				retention.</p>
+			<ul class="actions special">
+				<li><a href="https://github.com/AyomideOkeowo/A-Comprehensive-RFM-Customer-Churn-Analysis" class="button">View Project</a></li>
+			</ul>
+		</article>
+		<article>
+			<header>
+
+				<h2><a href="https://github.com/AyomideOkeowo/Docker-Customer-Churn-Analysis-Prediction">Customer Churn Analysis & Prediction<br />
+					</a></h2>
+			</header>
+			<a href="https://github.com/AyomideOkeowo/Docker-Customer-Churn-Analysis-Prediction" class="image fit"><img src="images/Customer_Churn_Prediction.png" alt="" /></a>
+			<p>Queried large datasets and engineered features to build XGBoost and Random Forest models predicting
+				customer churn. Designed an A/B experiment to measure tenure effects on retention and deployed a
+				scalable FastAPI service containerised with Docker for production use.</p>
+			<ul class="actions special">
+				<li><a href="https://github.com/AyomideOkeowo/Docker-Customer-Churn-Analysis-Prediction" class="button">View Project</a></li>
+			</ul>
+		</article>
+		
+<!--
+
+		<article>
+
+
+createing other project 
+
+
+
+			<header>
+
+				<h2><a href="#">Odio magna<br />
+						sed consectetur</a></h2>
+			</header>
+			<a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
+			<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque
+				venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+			<ul class="actions special">
+				<li><a href="#" class="button">Full Story</a></li>
+			</ul>
+		</article>
+		<article>
+
+			<header>
+
+				<h2><a href="#">Augue lorem<br />
+						primis vestibulum</a></h2>
+			</header>
+			<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
+			<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque
+				venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+			<ul class="actions special">
+				<li><a href="#" class="button">Full Story</a></li>
+			</ul>
+		</article>
+		-->
+	</section>
+
+
+
+	<section class="split contact">
+		<section class="alt"></section>
+		<section>
+			<h3>Phone</h3>
+			<p><a href="#">(+44) 7476282537 </a></p>
+		</section>
+		<section>
+			<h3>Email</h3>
+			<p><a href="#">Ayomideokeowo2013@gmail.com</a></p>
+		</section>
+		<section>
+			<h3>Social</h3>
+			<ul class="icons alt">
+				<li><a href="https://linkedin.com/in/ayomideokeowo" class="icon brands fa-linkedin"><span
+							class="label">linkedin</span></a></li>
+				<li><a href="https://github.com/AyomideOkeowo" class="icon brands alt fa-github"><span
+							class="label">GitHub</span></a></li>
+			</ul>
+		</section>
+	</section>
+	</footer>
+
+	<!-- Copyright -->
+	<style>
+		#copyright {
+			color: #333;
+			/* dark gray */
+		}
+	</style>
+	<div id="copyright">
+		<ul>
+			<li>&copy; 2025 Ayomide Okeowo</li>
+			<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+		</ul>
+	</div>
+
+</div>
+
+<!-- Scripts -->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
